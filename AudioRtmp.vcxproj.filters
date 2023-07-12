@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="FileName.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="source\CMediaEncode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CRtmp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="source\XMediaEncode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="source\XRtmp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp" />
+    <ClCompile Include="source\XAudioRecord.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="source\XData.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="source\XDataThread.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="source\XVideoRecord.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CAudioRecord.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CVicdoeRecord.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="source\XBilateralFilter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="source\XFilter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="header\CMediaEncode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="header\CRtmp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="header\XMediaEncode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="header\XRtmp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="header\XAudioRecord.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="header\XData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="header\XDataThread.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="header\XVideoRecord.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="header\CAudioRecord.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="header\CVicdoeRecord.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="header\XBilateralFilter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="header\XFilter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{c379eb97-051e-454c-a8dd-d3a37bcee607}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{5e41c419-746d-4469-8ef5-f196d69c0c5e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
+  </ItemGroup>
+</Project>
